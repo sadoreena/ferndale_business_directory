@@ -153,3 +153,23 @@ nav {
     text-decoration: underline;
     color: var(--text-secondary);
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+}
+
+section heading {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+div.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px
+}
