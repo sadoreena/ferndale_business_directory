@@ -1,5 +1,5 @@
 import { businessCategories } from './businesses.js'
-import { renderBusinesses } from './render.js'
+import { renderBusinesses, renderCategories /*,  searchBusinesses */ } from './render.js'
 
 const cardView = document.getElementById('card-view-btn')
 const listView = document.getElementById('list-view-btn')
@@ -20,4 +20,6 @@ cardView.addEventListener('click', () => {
   document.getElementById('list-view-btn').style.border = 'none'
 })
 
+// searchBusinesses(mainElement, businessCategories)
+renderCategories(businessCategories, mainElement)
 renderBusinesses(businessCategories, mainElement)

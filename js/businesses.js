@@ -60,12 +60,42 @@ export const businessCategories = [
     name: 'gifts',
     businesses: [{
 
-      name: 'BAKEHOUSE46',
+      name: 'ELAINE B. JEWELRY',
       photo_url: 'https://www.bakehouse46.com/wp-content/uploads/IMG_4393.jpg',
       web_url: 'https://www.bakehouse46.com/locations/ferndale/'
     },
     {
-      name: 'Valentine Distilling',
+      name: 'GIORGIO CONTI JEWELERS',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'SHIONNE DESIGNS',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'RUST BELT MARKET',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'MODERN NATURAL BABY',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'THE ROCKET',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'BLUMZ BY JRDESIGNS',
+      photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
+      web_url: 'https://www.valentinedistilling.com/'
+    },
+    {
+      name: 'THE ROCKET',
       photo_url: 'https://images.squarespace-cdn.com/content/v1/654a9d64203002780b060312/f46e3936-a345-4eb8-9b16-def1cd8dede7/Valentine+Distilling+Co.+Still+Close-Up.jpg?format=2500w',
       web_url: 'https://www.valentinedistilling.com/'
     }

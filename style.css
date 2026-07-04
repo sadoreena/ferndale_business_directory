@@ -91,6 +91,8 @@ nav {
     flex: 1;
     padding: 100px 0px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
@@ -104,6 +106,51 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.category-div {
+    display: flex;
+    gap: 24px;
+    height: fit-content;
+}
+
+.category-btn {
+    width: 100px;
+    height: 64px;
+    background-color: var(--component-secondary);
+    color: var(--text-secondary);
+    font-size: 16px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 10px;
+}
+
+.category-btn:hover {
+    background-color: var(--text-secondary);
+    color: var(--component-secondary);
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+}
+
+section heading {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.category-name {
+}
+
+div.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px
 }
 
 .card {
@@ -154,22 +201,3 @@ nav {
     color: var(--text-secondary);
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px
-}
-
-section heading {
-    font-size: 32px;
-    text-transform: capitalize;
-}
-
-div.cards-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px
-}
